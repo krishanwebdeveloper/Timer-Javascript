@@ -1,0 +1,192 @@
+
+
+
+    .akm {
+        text-align: center;
+        margin-top: 100px;
+        width: 495px;
+        height: 642px;
+       background: url(../images/10603266_42605.jpg);
+       background-position-x: 19px;
+       background-size: cover;
+        margin: auto;
+        margin-top: 41px;
+        /* border: 10px solid #95E65C; */
+        border-radius: 5px;
+    }
+   
+    body{
+background-color: #E665D0; 
+ /* background: url(../images/black-antique-countdown-vintage-down.jpg);  */
+background-size: cover;
+background-repeat: no-repeat;
+background-position-y: -60px;
+background-position-x: -30px;
+overflow: hidden;
+    }
+    .image1 {
+        position: relative;
+        top: -10px;
+        z-index: 1;
+        width: auto;
+        height: 200px;
+        right: 144px;
+    }
+    .ps {
+        font-size: 20px;
+        position: relative;
+        top: -198px;
+        left: 54px;
+    }
+    .pst {
+        font-size: 20px;
+        position: relative;
+        top: -192px;
+        left: 53px;
+    }
+    .science {
+        font-size: 18px;
+        margin-top: -165px;
+        width: 429px;
+        margin-left: 30px;
+    }
+    .science1 {
+        font-size: 18px;
+        margin-top: 23px;
+        width: 429px;
+        margin-left: 30px;
+    }
+    .tracker{
+        font-size: 18px;
+    margin-top: 44px;
+    }
+    .indian{
+        position: relative;
+        font-size: 29px;
+        color: rgb(0, 0, 0);
+        top: 22px;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+    }
+
+    .date {
+        width: 210px;
+        height: 29px;
+        position: relative;
+        top: -200px;
+        font-size: 20px;
+        left: 11px;
+        color: #4c4c58;
+    }
+    .start {
+        position: relative;
+        top: -183px;
+        left: 60px;
+        width: 125px;
+        padding: 8px 7px 8px 10px;
+        font-size: 19px;
+        border-radius: 10px;
+        border: 2px solid #ab9696;
+        font-weight: 600;
+        color: rgb(62, 47, 47);
+        cursor: pointer;
+    }
+.hoursmove{
+    
+    font-size: 22px;
+    position: relative;
+    top: 40px;
+    right: 139px;
+    margin-top: 20px;
+
+}
+.minutesmove{
+    
+    font-size: 22px;
+    position: relative;
+    right: 41px;
+
+}
+.secondsmove{
+    font-size: 22px;
+    position: relative;
+    top: -41px;
+    left: 59px;
+
+}
+#jilla{
+    font-size: 32px;
+    background-color: #ffffff;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0px 6px 3px 1px rgb(180, 180, 181);
+    position: relative;
+    top: -68px;
+    color: #302e2e;
+    right: 18px;
+    
+}
+#balance{
+    font-size: 32px;
+    background-color: #ffffff;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0px 6px 3px 1px rgb(180, 180, 181);
+    position: relative;
+    top: -68px;
+    color:#302e2e;
+    
+}
+
+#jilla1{
+    font-size: 32px;
+    background-color: #ffffff;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0px 6px 3px 1px rgb(180, 180, 181);
+    position: relative;
+    top: -68px;
+    color: #302e2e;
+    left: 18px;
+
+    
+}
+#balance1{
+    font-size: 32px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 10px;
+    box-shadow: 0px 6px 3px 1px rgb(180, 180, 181);
+    position: relative;
+    top: -68px;
+    color: #302e2e;
+    left: 37px;
+    
+}
+.dot1{
+    font-size: 66px;
+    position: relative;
+    top: -62px;
+    color: #3c3c2d;
+    right: 7px;
+    
+}
+.dot2{
+    font-size: 66px;
+    position: relative;
+    top: -62px;
+    color:#3c3c2d;
+    left: 9px;
+}
+.dot3{
+    font-size: 66px;
+    position: relative;
+    top: -62px;
+    color:#3c3c2d;
+    
+    left: 25px;
+
+}
+
+
+@media screen and(max-width:500px){
+  body{
+    overflow: hidden;
+  }  
+}

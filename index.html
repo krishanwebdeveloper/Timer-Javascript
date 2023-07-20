@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="akm">
+        
+    
+        <p class="indian"> We Are <br>
+            <span>Launching a new project</span>
+        </p>
+    
+        <p class="tracker">The best tracker to accomplish your Daily Tasks</p>
+    
+        <img class="image1" src="assets/images/29013782_7450326-removebg-preview.png" alt="">
+        <p class="ps">Project Start : 20-5-2023</p>
+        <p class="pst">Project End   : 30-5-2023</p>
+      <input type="text" value="START SOON" class="start">
+    
+        <p class="science">“Science is a way of thinking much more than it is a body of knowledge.” </p>
+        <p class="science1">“Scientists have become the bearers of the torch of discovery in our quest for knowledge.”</p>
+    
+        <h1 class="hoursmove">Hours</h1>
+        <h1 class="minutesmove">Minutes</h1>
+        <h1 class="secondsmove">Seconds</h1>
+    <div class="ktm">
+        <span id="jilla"></span><span class="dot1">:</span><span id="balance"></span><span class="dot2">:</span><span id="jilla1"></span><span class="dot3">:</span><span id="balance1"></span>
+    </div> 
+    
+    
+    <input type="date" class="date">
+    </div>
+    
+    
+        
+    
+        <script>
+            // let outputvalues = document.getElementsByTagName("p")[0];
+            let hourspasing = document.getElementById("jilla");
+            let balancep = document.getElementById("balance");
+            let hourspasing1 = document.getElementById("jilla1");
+            let hourspasing2 = document.getElementById("balance1");
+            
+      
+    
+    
+            setInterval(() => {
+                
+            let date = new Date();
+    
+    let hours = date.getHours();
+    
+    
+    
+    let minutes = date.getMinutes();
+    
+    let seconds = date.getSeconds();
+    
+    let ampm = hours >=12 ? "PM" : "AM";
+    
+    let anyva = minutes <10 ? "0"+minutes:minutes;
+    let anyva1 = seconds <10 ? "0"+seconds:seconds;
+    let anyva2 = hours <10 ? "0"+hours:hours;
+    
+    
+    
+    
+    hourspasing.innerHTML=anyva2;
+    balancep.innerHTML= anyva;
+    hourspasing1.innerHTML=anyva1;
+    hourspasing2.innerHTML=ampm;
+    
+    
+    
+            }, 1000);
+        </script>
+    </body>
+    
+    </html>
